@@ -25,3 +25,4 @@ def details(request, id):
             'post': post
     }
     return render(request, 'posts/details.html')
+    

@@ -1,5 +1,5 @@
-from django.db import models
 from datetime import datetime
+from django.db import models
 
 # Create your models here.
 
@@ -11,3 +11,4 @@ class Posts(models.Model):
         return self.title
     class Meta:
         verbose_name_plural = "Posts"
+        
